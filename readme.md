@@ -1,6 +1,6 @@
 ﻿# Portfolio Site Project for Front-End Web Developer Nanodegree Program
 
-##Technologies used
+## Technologies used
 
 * HTML5
 * CSS3 (Flexbox ❤)
