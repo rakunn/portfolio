@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans">
+	<link rel="stylesheet" href="public/styles/styles.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</head>
+
+<body>
+
+	<header>
+		<img class="logo" src="public/images/logo/udacity.svg" alt="Udacity Logo">
+		<div class="header-content">
+			<h1 class="author">Raq</h1>
+			<h2 class="author-title">Front-End / UI Developer</h2>
+		</div>
+	</header>
+
+	<!-- TODO: In future versions About, Websites, Data vizualisation, Contact sections -->
+	<main>
+		<section class="hero">
+			<h2 class="welcome-header">
+				Hi there. <span class="animated">I do websites.</span>
+			</h2>
+			<picture>
+				<source media="(max-width: 640px)" srcset="public/images/alexandru-acea-473175-unsplash-small.jpg 640w" sizes="100vw">
+				<source media="(max-width: 1280px)" srcset="public/images/alexandru-acea-473175-unsplash-medium.jpg 1280w" sizes="100vw">
+				<img src="public/images/alexandru-acea-473175-unsplash-large.jpg" alt="Hero image displaying a laptop, googles, pad and smartphone">
+			</picture>
+		</section>
+
+		<section class="projects">
+			<h3 class="title">Featured projects</h3>
+
+			<ul class="cards">
+				<li class="card">
+					<h4 class="title">Thailand trip blog</h4>
+					<p class="featured-tech">
+						Ruby on Rails, Bootstrap, Sorcery Auth
+					</p>
+					<picture>
+						<source media="(max-width: 640px)" srcset="public/images/Tajlandia-small.png 640w" sizes="100vw">
+						<source media="(max-width: 900px)" srcset="public/images/Tajlandia-medium.png 1280w" sizes="100vw">
+						<img src="public/images/Tajlandia-small.png" alt="Image showing of Thailang trip blog - showing a lake, some boats and hills">
+					</picture>
+					<div class="buttons">
+						<a href="http://trzytygodnie.herokuapp.com" class="demo-btn">Live demo</a>
+						<a href="https://github.com/rakunn/Bootstrap-blog" class="code-btn">Code</a>
+					</div>
+				</li>
+				<li class="card">
+					<h4 class="title">MP3 Music Player</h4>
+					<p class="featured-tech">
+						Howler.js, Progressbar.js, CSS Flexbox
+					</p>
+					<picture>
+						<source media="(max-width: 640px)" srcset="public/images/Player-small.png 640w" sizes="100vw">
+						<source media="(max-width: 900px)" srcset="public/images/Player-medium.png 1280w" sizes="100vw">
+						<img src="public/images/Player-small.png" alt="Image of MP3 music player project, showing circular player interface and gray background">
+					</picture>
+					<div class="buttons">
+						<a href="https://rakunn.github.io/player/" class="demo-btn">Live demo</a>
+						<a href="https://github.com/rakunn/player" class="code-btn">Code</a>
+					</div>
+				</li>
+				<li class="card">
+					<h4 class="title">Get Coords App</h4>
+					<p class="featured-tech">
+						Node.js, Google Geocoordinate API, Grid.js
+					</p>
+					<picture>
+						<source media="(max-width: 640px)" srcset="public/images/Coords-small.png 640w" sizes="100vw">
+						<source media="(max-width: 900px)" srcset="public/images/Coords-medium.png 1280w" sizes="100vw">
+						<img src="public/images/Coords-small.png" alt="Pictur of Get Coors App showing a table on blueish gradient background">
+					</picture>
+					<div class="buttons">
+						<a href="http://getcoords.herokuapp.com/" class="demo-btn">Live demo</a>
+						<a href="https://codepen.io/rakunn/pen/xYXQBm" class="code-btn">Code</a>
+					</div>
+				</li>
+			</ul>
+		</section>
+
+	</main>
+
+	<footer>
+		<ul class="icon-list">
+			<li><a href="https://github.com/rakunn"><i class="fab fa-github"></i></a></li>
+			<li><a href="https://www.linkedin.com/in/rafa%C5%82-bagrowski-743782111/"><i class="fab fa-linkedin"></i></a></li>
+			<li><a href="https://facebook.com"><i class="fab fa-facebook"></i></a></li>
+		</ul>
+		<p class="copyright">Images due to courtesy of <a href="unsplash.com">Unsplash. </a><em>© 2018 Rafał Bagrowski</em></p>
+		<p></p><em>© 2018 Rafał Bagrowski</em></p>
+	</footer>
+
+</body>
+
+</html>
